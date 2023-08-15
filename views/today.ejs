@@ -1,0 +1,32 @@
+<%- include ("partials/header.ejs") %>
+
+<div class="container-work">
+  <div class="heading">
+    <h2><%= locals.date %></h2>
+  </div>
+
+  <div class="box">
+      <% for (let i = 0; i < locals.items.length; i++) { %>
+        <div class="item">
+          <input class="checkbox" type="checkbox">
+          <label>
+            <%= locals.items[i] %>
+          </label>
+        </div> 
+      <% } %>
+  </div>
+
+  <div class="new-item">
+    <form action="/today" method="post">
+      <input class="new-task" type="text" name="newItem" placeholder="New Item">
+      <button type="submit" name="list">+</button>
+  </form>
+  </div>
+
+</div>
+ 
+        
+
+
+
+<%- include ("partials/footer.ejs") %>

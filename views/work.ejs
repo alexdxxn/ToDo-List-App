@@ -1,0 +1,33 @@
+<%- include ("partials/header.ejs") %>
+<div class="container-work">
+    <div class="heading">
+        <h2>Work List</h2>
+    </div>
+
+    <div class="box">
+        <% for (let i = 0; i < locals.workItems.length; i++) { %>
+          <div class="item">
+            <input class="checkbox" type="checkbox">
+            <label>
+              <%= locals.workItems[i] %>
+            </label>
+          </div> 
+        <% } %>
+    </div>
+  
+    <div class="new-item">
+      <form action="/work" method="post">
+        <input class="new-task" type="text" name="newWorkItem" placeholder="New Item">
+        <button type="submit" name="list">+</button>
+    </form>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+<%- include ("partials/footer.ejs") %>
