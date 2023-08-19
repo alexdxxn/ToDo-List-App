@@ -215,7 +215,7 @@ footer a{
     }
 
     .box{
-        width: 90%;
+        width: 80%;
     }
 
     .container-work{
@@ -228,12 +228,15 @@ footer a{
     }
 
 
-
     .container{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         gap: 0px;
+    }
+
+    footer{
+        margin-top: 100px;
     }
 
 }
