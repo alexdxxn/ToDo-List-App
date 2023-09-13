@@ -29,10 +29,10 @@ Users should be able to:
 - EJS
 - Bootstrap icons
 - Responsive design using media query
+- MongoDB
 
 
 ## Author
 
 - Website - [Alexander Altuve](https://alexdxxn.github.io/My-Resume/)
-- Frontend Mentor - [@alexdxxn](https://www.frontendmentor.io/profile/alexdxxn)
 - Twitter - [@alexdxxn](https://twitter.com/AlexDxxn)
