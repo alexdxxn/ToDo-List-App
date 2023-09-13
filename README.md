@@ -35,5 +35,4 @@ Users should be able to:
 ## Author
 
 - Website - [Alexander Altuve](https://alexdxxn.github.io/My-Resume/)
-- Frontend Mentor - [@alexdxxn](https://www.frontendmentor.io/profile/alexdxxn)
 - Twitter - [@alexdxxn](https://twitter.com/AlexDxxn)
