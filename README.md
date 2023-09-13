@@ -29,6 +29,7 @@ Users should be able to:
 - EJS
 - Bootstrap icons
 - Responsive design using media query
+- MongoDB
 
 
 ## Author
