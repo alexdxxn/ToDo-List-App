@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/todolistDB');
+    await mongoose.connect('mongodb+srv://alexdxxn:alex24607217@cluster0.lvftxui.mongodb.net/todolistDB');
     }
 
 
